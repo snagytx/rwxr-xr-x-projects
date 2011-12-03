@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.sopvid" name="Sopcast Video" version="0.2" provider-name="rwxr_xr_x">
-	<requires>
-		<import addon="xbmc.python" version="1.0"/>
-	</requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
+<addon id="plugin.video.sopvid"
+       name="Sopcast Video"
+       version="0.3"
+       provider-name="rwxr_xr_x">
+    <extension point="xbmc.python.pluginsource"
+           library="default.py">
 		<provides>video</provides>
     </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">Sopcast</summary>
-        <description lang="en">Sopcast</description>
-	</extension>
 </addon>
 </addons>
