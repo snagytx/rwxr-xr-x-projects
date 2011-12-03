@@ -1,0 +1,6 @@
+<settings>
+	<setting id="sopcast_path" type="text" label="30400" default="/storage/.sopcast" />
+	<setting id="timeout" type="text" label="30500" default="10" />
+</settings>
+
+
