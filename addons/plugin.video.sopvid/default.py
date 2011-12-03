@@ -1,5 +1,6 @@
 import urllib,urllib2,re,xbmcplugin,xbmcgui,xbmcaddon,os,socket
-from subprocess import check_output 
+#from subprocess import check_output 
+#import os
 
 sopdatapath = 'special://profile/addon_data/plugin.video.sopvid'
 selfAddon = xbmcaddon.Addon(id='plugin.video.sopvid')
@@ -143,11 +144,11 @@ def channels():
         setView("tvshows", "tvshows-view")
 
 def RUNSOP(url):
-        out = check_output([soppath + "run.sh", url, "3902", "8908"])
+        out = os.system(soppath + "run.sh " + url + "3902 8908")
         xbmc.log("Started stream : %s" % (out))
         
 def KILLSOP(url):
-	out = check_output([soppath  + "kill.sh"])
+	out = os.system(soppath  + "kill.sh")
 	xbmc.log("Stopped stream: %s" % (out))
 
 def get_params():
