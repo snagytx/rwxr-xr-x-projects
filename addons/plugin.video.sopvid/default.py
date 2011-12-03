@@ -1,5 +1,4 @@
 import urllib,urllib2,re,xbmcplugin,xbmcgui,xbmcaddon,os,socket
-from popen2 import Popen3 
 from subprocess import check_output 
 
 sopdatapath = 'special://profile/addon_data/plugin.video.sopvid'

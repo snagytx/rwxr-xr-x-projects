@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.sopvid"
        name="Sopcast sterams"
-       version="0.0.1"
+       version="0.0.1.1"
        provider-name="rwxr_xr_x">
     <requires>
         <import addon="xbmc.python" version="1.0"/>
