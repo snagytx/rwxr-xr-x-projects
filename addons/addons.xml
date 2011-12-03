@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon id="plugin.video.sopvid"
-       name="Sopcast Video"
-       version="0.3"
+       name="Sopcast sterams"
+       version="0.0.1"
        provider-name="rwxr_xr_x">
+    <requires>
+        <import addon="xbmc.python" version="1.0"/>
+    </requires>
     <extension point="xbmc.python.pluginsource"
-           library="default.py">
-		<provides>video</provides>
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Stream and download scene releases from the megaupload links listed on Icefilms.info</summary>
+        <description>Turns your XBMC into an instant free on-demand media-center. Stream and download to your library pure .avi scene releases, in DVD and HD720p quality. Browse and search the library of over 77,000 videos with metadata and posters. Never experience the frustration of dead video links!</description>
     </extension>
 </addon>
 </addons>
