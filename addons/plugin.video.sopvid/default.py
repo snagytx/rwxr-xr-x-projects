@@ -20,7 +20,7 @@ class MyPlayer( xbmc.Player ):
                                                                                                                                                         
 	def onPlayBackStopped(self):
 		if self.state == 0 :
-			Notify('small', self.channel, 'Channel \'' + self.channel + '\' not abailable', '')
+			Notify('small', self.channel, 'Channel \'' + self.channel + '\' not available', '')
 
         	KILLSOP("xx")
         	self.state=2;
@@ -88,7 +88,8 @@ def channels():
         addLink('sop://broker.sopcast.com:3912/86738', 'PRO TV - S2', 3, '/imgtv/protv.jpg')
         addLink('sop://broker.sopcast.com:3912/111617', 'PRO TV - S3', 3, '/imgtv/protv.jpg')
         addLink('sop://broker.sopcast.com:3912/90686', 'PRO TV - S4', 3, '/imgtv/protv.jpg')
-        addLink('sop://broker.sopcast.com:3912/112101', 'HBO Comedy - S2', 3, '/imgtv/protv.jpg')
+        addLink('sop://broker.sopcast.com:3912/112101', 'HBO Comedy - S2', 3, '/imgtv/hbo.jpg')
+        addLink('sop://broker.sopcast.com:3912/111718', 'Antena 1 - S2', 3, '/imgtv/antena1.jpg')
 
         addLink('sop://broker.sopcast.com:3912/112099', 'TVR 1', 3, '/imgtv/tvr1.jpg')
         addLink('sop://broker.sopcast.com:3912/80620', 'TVR 2', 3, '/imgtv/tvr2.jpg')
