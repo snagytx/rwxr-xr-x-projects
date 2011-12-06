@@ -85,7 +85,6 @@ def channels():
 #       Manual ones
         addLink('sop://broker.sopcast.com:3912/111947', 'HBO - S2', 3, '/imgtv/hbo.jpg')
         addLink('sop://broker.sopcast.com:3912/86738', 'PRO TV - S2', 3, '/imgtv/protv.jpg')
-        addLink('sop://broker.sopcast.com:3912/86738', 'PRO TV - S2', 3, '/imgtv/protv.jpg')
         addLink('sop://broker.sopcast.com:3912/111617', 'PRO TV - S3', 3, '/imgtv/protv.jpg')
         addLink('sop://broker.sopcast.com:3912/90686', 'PRO TV - S4', 3, '/imgtv/protv.jpg')
         addLink('sop://broker.sopcast.com:3912/112101', 'HBO Comedy - S2', 3, '/imgtv/hbo.jpg')

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
 <addon id="plugin.video.sopvid"
        name="Sopcast streams"
-       version="0.0.2.0"
+       version="VERSION_REPLACE"
        provider-name="rwxr_xr_x">
     <requires>
         <import addon="xbmc.python" version="1.0"/>
@@ -17,4 +16,3 @@
         <description>Stream Sopcast channels.</description>
     </extension>
 </addon>
-</addons>
