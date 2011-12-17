@@ -211,9 +211,9 @@ def handle_file(filename,getmode=''):
      if filename == 'poster':
 	     return_file = xbmcpath(sopdatapath,'Poster.txt')
 
-def StartServer(url):
+def StartServer(url, name):
 	RUNSOP(url)
-	wait = handle_wait(timeout,'Sopcast','Initializing Stream')
+	wait = handle_wait(timeout,'Sopcast','Initializing ' + name + ' stream.')
 
 	if wait == True:
 		return "http://" + socket.gethostname()  + ":8908/tv.asf"
@@ -231,7 +231,7 @@ def Item_Meta(name, iconimage):
 
 def playStream(name, url, iconimage):
 
-	link = StartServer(url)
+	link = StartServer(url, name)
 	listitem = Item_Meta(name, iconimage)	
 	print 'attempting to stream file'
 	
