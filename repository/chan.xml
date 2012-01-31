@@ -15,11 +15,11 @@
         </item>
         <item>
             <title>FOX News - iLive</title>
-            <link>rtmp://176.31.237.96/edge Playpath=FNews swfUrl=http://cdn.static.ilive.to/jwplayer/player_new.swf  pageUrl=http://www.ilive.to/embedplayer.php?channel=24278&amp;autoplay=true</link>
+            <link>rtmp://176.31.237.96/edge Playpath=FNews swfUrl=http://cdn.static.ilive.to/jwplayer/player_new.swf  pageUrl=http://www.ilive.to/embedplayer.php?channel=24278&amp;autoplay=true swfVfy=true live=true timeout=60</link>
         </item>
          <item>
              <title>FOX News - iLive2</title>
-             <link>rtmp://stream.ilive.to:1935/app/_definst_/4tc63z84u1gx6yu Playpath=FNews swfUrl=http://cdn.static.ilive.to/jwplayer/player_new.swf   pageUrl=http://www.ilive.to/embedplayer.php?channel=24278&amp;autoplay=true</link>
+             <link>rtmp://stream.ilive.to:1935/app/_definst_/4tc63z84u1gx6yu Playpath=FNews swfUrl=http://cdn.static.ilive.to/jwplayer/player_new.swf   pageUrl=http://www.ilive.to/embedplayer.php?channel=24278&amp;autoplay=true swfVfy=true live=true timeout=60</link>
          </item>
      </items>    
 </channel>
