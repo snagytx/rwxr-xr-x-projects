@@ -27,6 +27,14 @@
         </item>         
          
      </items>    
+     
+     
+     
+<item>
+		<title>Penthouse 2 HD</title>
+		<link>rtmp://s6.webport.tv/live/ playpath=z990104.stream swfUrl="http://www.tvsector.com/wp-content/uploads/jw-player-plugin-for-wordpress/player/player.swf" pageUrl="http://www.tvsector.com/penthouse-2-hd/" live=true</link>
+		<thumbnail>http://www.lyngsat-logo.com/hires/pp/penthouse_hd2.png</thumbnail>
+	</item>     
 </channel>
 
 </channels> 
