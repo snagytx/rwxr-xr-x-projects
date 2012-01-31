@@ -11,16 +11,19 @@
     <items>
         <item>
             <title>FOX News - HQ Cast</title>
-            <link>rtmp://95.211.137.195/video Playpath=foxnews113 swfUrl=http://www.hqcast.tv/player/player-licensed.swf pageUrl=http://www.hqcast.tv/embed.php?live=foxnews113</link>
+            <link>rtmp://95.211.137.195/video Playpath=foxnews113 swfUrl=http://www.hqcast.tv/player/player-licensed.swf pageUrl=http://www.hqcast.tv/embed.php?live=foxnews113</link>            
+            <thumbnail>none</thumbnail>
         </item>
         <item>
             <title>FOX News - iLive</title>
             <link>rtmp://176.31.237.96/edge Playpath=4tc63z84u1gx6yu swfUrl=http://cdn.static.ilive.to/jwplayer/player_new.swf  pageUrl=http://www.ilive.to/embedplayer.php?channel=24278&amp;autoplay=true swfVfy=true live=true timeout=60</link>
-        </item>
+            <thumbnail>none</thumbnail>            
+            </item>
          <item>
              <title>FOX News - iLive2</title>
              <link>rtmp://stream.ilive.to:1935/app/_definst_/4tc63z84u1gx6yu Playpath=4tc63z84u1gx6yu swfUrl=http://cdn.static.ilive.to/jwplayer/player_new.swf   pageUrl=http://www.ilive.to/embedplayer.php?channel=24278&amp;autoplay=true swfVfy=true live=true timeout=60</link>
-         </item>
+            <thumbnail>none</thumbnail>
+            </item>
         <item>
           <title>HBO HD</title>
           <link>rtmp://s7.webport.tv/live/z010402.stream playpath=z010402.stream swfUrl="http://tvsector.com/mediaplayer/player.swf" pageUrl="http://tvsector.com/" live=1</link>          
@@ -28,7 +31,8 @@
            <item>
           <title>HBO 2 HD</title>
              <link>rtmp://s6.webport.tv/live/ playpath=z010701.stream swfUrl="http://www.tvsector.com/wp-content/uploads/jw-player-plugin-for-wordpress/player/player.swf"  pageUrl=http://www.tvsector.com/national-geographic-nat-geo-hd/</link>
-        </item>      
+            <thumbnail>none</thumbnail>
+          </item>      
               
      </items> 
 </channel>
