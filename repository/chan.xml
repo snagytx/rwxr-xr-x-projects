@@ -13,8 +13,7 @@
             <link>rtmpe://95.211.146.164/video Playpath=msnbc1 swfUrl=http://www.hqcast.tv/player/player-licensed.swf pageUrl=http://www.hqcast.tv/embed.php?live=msnbc1</link>
             <thumbnail>http://www.lyngsat-logo.com/hires/mm/msnbc.png</thumbnail>
         </item>
-    <items>
-</items>
+    </items>
 </channel>
 
 </channels> 
