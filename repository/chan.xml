@@ -23,11 +23,11 @@
          </item>
         <item>
           <title>HBO HD</title>
-          <link>rtmp://s7.webport.tv/live/z010402.stream playpath=z010402.stream swfUrl="http://tvsector.com/mediaplayer/player.swf" pageUrl="http://tvsector.com/" live=1</link>
+          <link>rtmp://s7.webport.tv/live/z010402.stream playpath=z010402.stream swfUrl="http://tvsector.com/mediaplayer/player.swf" pageUrl="http://tvsector.com/" live=1</link>          
         </item>    
            <item>
           <title>HBO 2 HD</title>
-             <link>rtmp://s7.webport.tv/live  playpath=z010701.stream  swfUrl="http://tvsector.com/mediaplayer/player.swf"  pageUrl="http://tvsector.com/" live=1</link>
+             <link>rtmp://s6.webport.tv/live/   playpath=z010701.stream  swfUrl="http://www.tvsector.com/wp-content/uploads/jw-player-plugin-for-wordpress/player/player.swf"</link>
         </item>      
               
      </items> 
