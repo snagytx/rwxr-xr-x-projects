@@ -22,8 +22,8 @@
              <link>rtmp://stream.ilive.to:1935/app/_definst_/4tc63z84u1gx6yu Playpath=4tc63z84u1gx6yu swfUrl=http://cdn.static.ilive.to/jwplayer/player_new.swf   pageUrl=http://www.ilive.to/embedplayer.php?channel=24278&amp;autoplay=true swfVfy=true live=true timeout=60</link>
          </item>
         <item>
-          <title>Test 1</title>
-          <link>rtmp://live181.la3.edge.filmon.com/live503 playpath=503.high.stream swfUrl="http://www.filmon.com/tv/modules/FilmOnTV/files/flÃashapp/filmon/FilmonPlayer.swf?v=6" pageUrl="http://www.filmon.com/tv/htmlmain/"</link>
+          <title>HBO HD</title>
+          <link>rtmp://s7.webport.tv/live/z010402.stream playpath=z010402.stream swfUrl="http://tvsector.com/mediaplayer/player.swf" pageUrl="http://tvsector.com/" live=1</link>
         </item>         
          
      </items>    
