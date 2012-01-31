@@ -13,14 +13,10 @@
             <title>FOX News - HQ Cast</title>
             <link>rtmpe://95.211.137.195/video Playpath=foxnews113 swfUrl=http://www.hqcast.tv/player/player-licensed.swf pageUrl=http://www.hqcast.tv/embed.php?live=foxnews113&vw=550&vh=400</link>
         </item>
-    </items>
-    <items>
         <item>
             <title>FOX News - iLive</title>
             <link>rtmp://176.31.237.96/edge  Playpath=foxnews113 swfUrl=http://cdn.static.ilive.to/jwplayer/player_new.swf  pageUrl=http://www.ilive.to/embedplayer.php?width=660&height=590&channel=24278&autoplay=true</link>
         </item>
-    </items>
-    <items>
          <item>
              <title>FOX News - iLive2</title>
              <link>rtmp://stream.ilive.to:1935/app/_definst_/4tc63z84u1gx6yu Playpath=foxnews113 swfUrl=http://cdn.static.ilive.to/jwplayer/player_new.swf   pageUrl=http://www.ilive.to/embedplayer.php?width=660&height=590&channel=24278&autoplay=true</link>
