@@ -11,7 +11,7 @@
     <items>
         <item>
             <title>FOX News</title>
-            <link>rtmp://live.hqcast.tv/hqcast Playpath=foxnews113 swfUrl=http://www.hqcast.tv/player/player-licensed.swf pageUrl=http://www.hqcast.tv/embed.php?live=foxnews113</link>
+            <link>rtmp://live.hqcast.tv/hqcast Playpath=foxnews113 swfUrl=http://www.hqcast.tv/player/player-licensed.swf pageUrl=http://www.hqcast.tv/watch.php?live=foxnews113</link>
         </item>
     </items>
 </channel>
