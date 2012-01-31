@@ -7,8 +7,8 @@
   <thumbnail>http://thestreamdb.googlecode.com/svn/languageicons/Albanian.png</thumbnail>
     <items>
         <item>
-            <title>MSNBC</title>
-            <link>rtmpe://95.211.146.164/video Playpath=msnbc1 swfUrl=http://www.hqcast.tv/player/player-licensed.swf pageUrl=http://www.hqcast.tv/embed.php?live=msnbc1</link>
+            <title>FOX News</title>
+            <link>rtmp://live.hqcast.tv/hqcast Playpath=foxnews113 swfUrl=http://www.hqcast.tv/player/player-licensed.swf pageUrl=http://www.hqcast.tv/embed.php?live=foxnews113&vw=550&vh=400</link>
         </item>
     </items>
 </channel>
