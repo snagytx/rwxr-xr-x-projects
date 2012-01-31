@@ -21,11 +21,10 @@
              <title>FOX News - iLive2</title>
              <link>rtmp://stream.ilive.to:1935/app/_definst_/4tc63z84u1gx6yu Playpath=4tc63z84u1gx6yu swfUrl=http://cdn.static.ilive.to/jwplayer/player_new.swf   pageUrl=http://www.ilive.to/embedplayer.php?channel=24278&amp;autoplay=true swfVfy=true live=true timeout=60</link>
          </item>
-<item>
-		<title>Penthouse 2 HD</title>
-		<link>rtmp://s6.webport.tv/live/ playpath=z990104.stream swfUrl="http://www.tvsector.com/wp-content/uploads/jw-player-plugin-for-wordpress/player/player.swf" pageUrl="http://www.tvsector.com/penthouse-2-hd/" live=true</link>
-		<thumbnail>http://www.lyngsat-logo.com/hires/pp/penthouse_hd2.png</thumbnail>
-	</item>         
+        <item>
+          <title>Test 1</title>
+          <link>rtmp://live181.la3.edge.filmon.com/live503 playpath=503.high.stream swfUrl="http://www.filmon.com/tv/modules/FilmOnTV/files/flÃashapp/filmon/FilmonPlayer.swf?v=6" pageUrl="http://www.filmon.com/tv/htmlmain/"</link>
+        </item>         
          
      </items>    
 </channel>
