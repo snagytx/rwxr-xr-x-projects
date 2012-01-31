@@ -27,7 +27,7 @@
         </item>    
            <item>
           <title>HBO 2 HD</title>
-          <link>rtmp://s99.webport.tv/live&file=z010701.stream  playpath=z010701.stream  swfUrl="http://tvsector.com/mediaplayer/player.swf"  pageUrl="http://tvsector.com/" live=1</link>
+             <link>rtmp://s99.webport.tv/live/file=z010701.stream  playpath=z010701.stream  swfUrl="http://tvsector.com/mediaplayer/player.swf"  pageUrl="http://tvsector.com/" live=1</link>
         </item>      
          
      
