@@ -27,7 +27,7 @@
         </item>    
            <item>
           <title>HBO 2 HD</title>
-             <link>rtmp://s6.webport.tv/live/   playpath=z010701.stream  swfUrl="http://www.tvsector.com/wp-content/uploads/jw-player-plugin-for-wordpress/player/player.swf" pageUrl=http://www.tvsector.com/national-geographic-nat-geo-hd/</link>
+             <link>rtmp://s6.webport.tv/live/ playpath=z010701.stream swfUrl="http://www.tvsector.com/wp-content/uploads/jw-player-plugin-for-wordpress/player/player.swf"  pageUrl=http://www.tvsector.com/national-geographic-nat-geo-hd/</link>
         </item>      
               
      </items> 
