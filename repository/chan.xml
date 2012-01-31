@@ -3,6 +3,11 @@
 <channels>
 
 <channel>
+    <name>News</name>
+    <thumbnail>http://community-links.googlecode.com/svn/icons/news-icon.png</thumbnail>
+    <fanart>http://community-links.googlecode.com/svn/icons/news-fanart.jpg</fanart>
+    <info> </info>
+
     <items>
         <item>
             <title>FOX News</title>
