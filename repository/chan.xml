@@ -36,6 +36,10 @@
 <item><title>HBO2 HD</title> <link>rtmp://s6.webport.tv/live/  playpath=z010701.stream  swfUrl="http://www.tvsector.com/wp-content/uploads/jw-player-plugin-for-wordpress/player/player.swf"   pageUrl=http://www.tvsector.com/national-geographic-nat-geo-hd/</link>
 <thumbnail>none</thumbnail>
 </item>
+
+<item><title>STARZ</title> <link>rtmp://38.96.175.173:1935/live/20012@hyqw  swfUrl=http://veohcast.tv/veohcast.tv.swf  pageUrl=http://www.veohcast.tv/veohV.php?n=20012@hyqw  tcUrl=rtmp://38.96.175.173:1935/live</link>
+<thumbnail>none</thumbnail>
+</item>
               
      </items> 
 </channel>
