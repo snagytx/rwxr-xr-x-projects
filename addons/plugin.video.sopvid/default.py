@@ -4,6 +4,12 @@ from subprocess import check_output
 sopdatapath = 'special://profile/addon_data/plugin.video.sopvid'
 selfAddon = xbmcaddon.Addon(id='plugin.video.sopvid')
 
+#USER_AGENT = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3'
+
+USER_AGENT = 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3; MS-RTC LM 8; .NET CLR 1.1.4322; .NET4.0E; .NET4.0C; Tablet PC 2.0)'
+SOPCAST_REFERRER = 'http://sports-tv.eu'
+
+
 url=None
 name=None
 mode=None
@@ -90,57 +96,89 @@ def channels():
         addLink('sop://broker.sopcast.com:3912/112101', 'HBO Comedy - S2', 3, '/imgtv/hbo.jpg')
         addLink('sop://broker.sopcast.com:3912/111718', 'Antena 1 - S2', 3, '/imgtv/antena1.jpg')
 
-        addLink('sop://broker.sopcast.com:3912/112099', 'TVR 1', 3, '/imgtv/tvr1.jpg')
-        addLink('sop://broker.sopcast.com:3912/80620', 'TVR 2', 3, '/imgtv/tvr2.jpg')
-        addLink('sop://broker.sopcast.com:3912/80625', 'Antena 1', 3, '/imgtv/antena1.jpg')
-        addLink('sop://broker.sopcast.com:3912/80621', 'PRO TV - S1', 3, '/imgtv/protv.jpg')
-        addLink('sop://broker.sopcast.com:3912/60586', 'Prima TV', 3, '/imgtv/primatv.jpg')
-        addLink('sop://broker.sopcast.com:3912/74841', 'B1TV', 3, '/imgtv/b1tv.jpg')
-        addLink('sop://broker.sopcast.com:3912/60704', 'National TV', 3, '/imgtv/nationaltv.jpg')
-        addLink('sop://broker.sopcast.com:3912/80562', 'SportRo', 3, '/imgtv/sportro.jpg')
-        addLink('sop://broker.sopcast.com:3912/60713', 'Eurosport', 3, '/imgtv/eurosport.jpg')
-        addLink('sop://broker.sopcast.com:3912/80398', 'Eurosport2', 3, '/imgtv/eurosport2.jpg')
-        addLink('sop://broker.sopcast.com:3912/111618', 'GSPTV', 3, '/imgtv/gsptv.jpg')
-        addLink('sop://broker.sopcast.com:3912/111719', 'DigiSport', 3, '/imgtv/digisport.jpg')
-        addLink('sop://broker.sopcast.com:3912/111378', 'Digisport 2', 3, '/imgtv/digisport2.jpg')
-        addLink('sop://broker.sopcast.com:3912/98660', 'Digisport 3', 3, '/imgtv/digisport3.jpg')
-        addLink('sop://broker.sopcast.com:3912/112093', 'Dolcesport ', 3, '/imgtv/dolcesport.jpg')
-        addLink('sop://broker.sopcast.com:3912/112094', 'Dolcesport2', 3, '/imgtv/dolcesport2.jpg')
-        addLink('sop://broker.sopcast.com:3912/80624', 'HBO', 3, '/imgtv/hbo.jpg')        
-        addLink('sop://broker.sopcast.com:3912/112101', 'HBO Comedy', 3, '/imgtv/hbocomedy.jpg')
-        addLink('sop://broker.sopcast.com:3912/112229', 'Digi Film', 3, '/imgtv/digifilm.jpg')
-        addLink('sop://broker.sopcast.com:3912/60709', 'AXN', 3, '/imgtv/axn.jpg')
-        addLink('sop://broker.sopcast.com:3912/60711', 'AXN Crime', 3, '/imgtv/axncrime.jpg')
-        addLink('sop://broker.sopcast.com:3912/60710', 'AXN Scifi', 3, '/imgtv/axnscifi.jpg')
-        addLink('sop://broker.sopcast.com:3912/80622', 'Pro Cinema', 3, '/imgtv/procinema.jpg')
-        addLink('sop://broker.sopcast.com:3912/60703', 'Tv1000', 3, '/imgtv/tvrm.jpg')
-        addLink('sop://broker.sopcast.com:3912/80555', 'AcasaTV', 3, '/imgtv/acasatv.jpg')
-        addLink('sop://broker.sopcast.com:3912/60702', 'Kanal D', 3, '/imgtv/kanald.jpg')
-        addLink('sop://broker.sopcast.com:3912/112096', 'Euforia Tv', 3, '/imgtv/euforiatv.jpg')
-        addLink('sop://broker.sopcast.com:3912/116003', 'Favorit Tv', 3, '/imgtv/favorit.jpg')
-        addLink('sop://broker.sopcast.com:3912/111690', '10 TV', 3, '/imgtv/10tv.jpg')
-        addLink('sop://broker.sopcast.com:3912/112098', 'Diva', 3, '/imgtv/diva.jpg')
-        addLink('sop://broker.sopcast.com:3912/110989', 'CinemaX', 3, '/imgtv/cinemax.jpg')
-        addLink('sop://broker.sopcast.com:3912/74842', 'Antena 3', 3, '/imgtv/antena3.jpg')
-        addLink('sop://broker.sopcast.com:3912/74843', 'Realitatea TV', 3, '/imgtv/realitateatv.jpg')
-        addLink('sop://broker.sopcast.com:3912/60705', 'Disney Channel', 3, '/imgtv/disneychannel.jpg')
-        addLink('sop://broker.sopcast.com:3912/80593', 'Cartoon Network', 3, '/imgtv/cn.jpg')
-        addLink('sop://broker.sopcast.com:3912/60712', 'Boomerang', 3, '/imgtv/boomerang.jpg')
-        addLink('sop://broker.sopcast.com:3912/74631', 'Animal Planet', 3, '/imgtv/animalplanet.jpg')
-        addLink('sop://broker.sopcast.com:3912/80397', 'National Geographic', 3, '/imgtv/ngc.jpg')
-        addLink('sop://broker.sopcast.com:3912/80626', 'National Geographic Wild', 3, '/imgtv/nationalgeowild.jpg')
-        addLink('sop://broker.sopcast.com:3912/60708', 'OTV', 3, '/imgtv/otv.jpg')
-        addLink('sop://broker.sopcast.com:3912/74846', 'Taraf Tv', 3, '/imgtv/taraftv.jpg')
-        addLink('sop://broker.sopcast.com:3912/90686', 'Pro Tv International', 3, '/imgtv/protvint.jpg')
-        addLink('sop://broker.sopcast.com:3912/116000', 'PVTV', 3, '/imgtv/pvtv.jpg')
-        addLink('sop://broker.sopcast.com:3912/80623', 'Discovery Channel', 3, '/imgtv/discovery.jpg')
-        addLink('sop://broker.sopcast.com:3912/74844', 'N24 Plus', 3, '/imgtv/n24plus.jpg')
-        addLink('sop://broker.sopcast.com:3912/74633', 'Discovery World', 3, '/imgtv/discoveryworld.jpg')
-        addLink('sop://broker.sopcast.com:3912/74636', 'Discovery Travel', 3, '/imgtv/discoverytravel.jpg')
-        addLink('sop://broker.sopcast.com:3912/74634', 'Discovery Investigation', 3, '/imgtv/discoveryinvestigation.jpg')
-        addLink('sop://broker.sopcast.com:3912/74635', 'Discovery Science', 3, '/imgtv/discoveryscience.jpg')
 
+#        addLink('sop://broker.sopcast.com:3912/112099', 'TVR 1', 3, '/imgtv/tvr1.jpg')
+#        addLink('sop://broker.sopcast.com:3912/80620', 'TVR 2', 3, '/imgtv/tvr2.jpg')
+#        addLink('sop://broker.sopcast.com:3912/80625', 'Antena 1', 3, '/imgtv/antena1.jpg')
+#        addLink('sop://broker.sopcast.com:3912/80621', 'PRO TV - S1', 3, '/imgtv/protv.jpg')
+#        addLink('sop://broker.sopcast.com:3912/60586', 'Prima TV', 3, '/imgtv/primatv.jpg')
+#        addLink('sop://broker.sopcast.com:3912/74841', 'B1TV', 3, '/imgtv/b1tv.jpg')
+#        addLink('sop://broker.sopcast.com:3912/60704', 'National TV', 3, '/imgtv/nationaltv.jpg')
+#        addLink('sop://broker.sopcast.com:3912/80562', 'SportRo', 3, '/imgtv/sportro.jpg')
+#        addLink('sop://broker.sopcast.com:3912/60713', 'Eurosport', 3, '/imgtv/eurosport.jpg')
+#        addLink('sop://broker.sopcast.com:3912/80398', 'Eurosport2', 3, '/imgtv/eurosport2.jpg')
+#        addLink('sop://broker.sopcast.com:3912/111618', 'GSPTV', 3, '/imgtv/gsptv.jpg')
+#        addLink('sop://broker.sopcast.com:3912/111719', 'DigiSport', 3, '/imgtv/digisport.jpg')
+#        addLink('sop://broker.sopcast.com:3912/111378', 'Digisport 2', 3, '/imgtv/digisport2.jpg')
+#        addLink('sop://broker.sopcast.com:3912/98660', 'Digisport 3', 3, '/imgtv/digisport3.jpg')
+#        addLink('sop://broker.sopcast.com:3912/112093', 'Dolcesport ', 3, '/imgtv/dolcesport.jpg')
+#        addLink('sop://broker.sopcast.com:3912/112094', 'Dolcesport2', 3, '/imgtv/dolcesport2.jpg')
+#        addLink('sop://broker.sopcast.com:3912/80624', 'HBO', 3, '/imgtv/hbo.jpg')        
+#        addLink('sop://broker.sopcast.com:3912/112101', 'HBO Comedy', 3, '/imgtv/hbocomedy.jpg')
+#        addLink('sop://broker.sopcast.com:3912/112229', 'Digi Film', 3, '/imgtv/digifilm.jpg')
+#        addLink('sop://broker.sopcast.com:3912/60709', 'AXN', 3, '/imgtv/axn.jpg')
+#        addLink('sop://broker.sopcast.com:3912/60711', 'AXN Crime', 3, '/imgtv/axncrime.jpg')
+#        addLink('sop://broker.sopcast.com:3912/60710', 'AXN Scifi', 3, '/imgtv/axnscifi.jpg')
+#        addLink('sop://broker.sopcast.com:3912/80622', 'Pro Cinema', 3, '/imgtv/procinema.jpg')
+#        addLink('sop://broker.sopcast.com:3912/60703', 'Tv1000', 3, '/imgtv/tvrm.jpg')
+#        addLink('sop://broker.sopcast.com:3912/80555', 'AcasaTV', 3, '/imgtv/acasatv.jpg')
+#        addLink('sop://broker.sopcast.com:3912/60702', 'Kanal D', 3, '/imgtv/kanald.jpg')
+#        addLink('sop://broker.sopcast.com:3912/112096', 'Euforia Tv', 3, '/imgtv/euforiatv.jpg')
+#        addLink('sop://broker.sopcast.com:3912/116003', 'Favorit Tv', 3, '/imgtv/favorit.jpg')
+#        addLink('sop://broker.sopcast.com:3912/111690', '10 TV', 3, '/imgtv/10tv.jpg')
+#        addLink('sop://broker.sopcast.com:3912/112098', 'Diva', 3, '/imgtv/diva.jpg')
+#        addLink('sop://broker.sopcast.com:3912/110989', 'CinemaX', 3, '/imgtv/cinemax.jpg')
+#        addLink('sop://broker.sopcast.com:3912/74842', 'Antena 3', 3, '/imgtv/antena3.jpg')
+#        addLink('sop://broker.sopcast.com:3912/74843', 'Realitatea TV', 3, '/imgtv/realitateatv.jpg')
+#        addLink('sop://broker.sopcast.com:3912/60705', 'Disney Channel', 3, '/imgtv/disneychannel.jpg')
+#        addLink('sop://broker.sopcast.com:3912/80593', 'Cartoon Network', 3, '/imgtv/cn.jpg')
+#        addLink('sop://broker.sopcast.com:3912/60712', 'Boomerang', 3, '/imgtv/boomerang.jpg')
+#        addLink('sop://broker.sopcast.com:3912/74631', 'Animal Planet', 3, '/imgtv/animalplanet.jpg')
+#        addLink('sop://broker.sopcast.com:3912/80397', 'National Geographic', 3, '/imgtv/ngc.jpg')
+#        addLink('sop://broker.sopcast.com:3912/80626', 'National Geographic Wild', 3, '/imgtv/nationalgeowild.jpg')
+#        addLink('sop://broker.sopcast.com:3912/60708', 'OTV', 3, '/imgtv/otv.jpg')
+#        addLink('sop://broker.sopcast.com:3912/74846', 'Taraf Tv', 3, '/imgtv/taraftv.jpg')
+#        addLink('sop://broker.sopcast.com:3912/90686', 'Pro Tv International', 3, '/imgtv/protvint.jpg')
+#        addLink('sop://broker.sopcast.com:3912/116000', 'PVTV', 3, '/imgtv/pvtv.jpg')
+#        addLink('sop://broker.sopcast.com:3912/80623', 'Discovery Channel', 3, '/imgtv/discovery.jpg')
+#        addLink('sop://broker.sopcast.com:3912/74844', 'N24 Plus', 3, '/imgtv/n24plus.jpg')
+#        addLink('sop://broker.sopcast.com:3912/74633', 'Discovery World', 3, '/imgtv/discoveryworld.jpg')
+#        addLink('sop://broker.sopcast.com:3912/74636', 'Discovery Travel', 3, '/imgtv/discoverytravel.jpg')
+#        addLink('sop://broker.sopcast.com:3912/74634', 'Discovery Investigation', 3, '/imgtv/discoveryinvestigation.jpg')
+#        addLink('sop://broker.sopcast.com:3912/74635', 'Discovery Science', 3, '/imgtv/discoveryscience.jpg')
+
+	source = getURL("http://sports-tv.eu/index3.htm")
+#	source = getURL('http://sports-tv.eu/index.html')
+#	print source
+	match=re.compile('.*OnPlay\(\'sop(.*)\', \'(.*)\'\)".*.*src="(.*)"/>.*').findall(source)
+	print match
+
+	for mat in match:
+		link = 'sop'+str(mat[0])
+		name = str(mat[1])
+		img = str(mat[2])
+#		xbmc.log('Link %s, name %s, img %s', link, name, img)
+		addLink(link, name, 3, img)
+	
         setView("tvshows", "tvshows-view")
+
+def getURL(url, params = None, referrer = SOPCAST_REFERRER):
+     	print 'processing url: ' + url
+	req = urllib2.Request(url)
+        req.add_header('User-Agent', USER_AGENT)
+        # as of 2011-06-02, IceFilms sources aren't displayed unless a valid referrer header is supplied:
+        # http://forum.xbmc.org/showpost.php?p=810288&postcount=1146
+        if referrer:
+        	req.add_header('Referer', referrer)
+        # avoid Python >= 2.5 ternary operator for backwards compatibility
+        # http://wiki.xbmc.org/index.php?title=Python_Development#Version
+        if params:
+        	response = urllib2.urlopen(req, params)
+       	else:
+        	response = urllib2.urlopen(req)
+        source = response.read()
+        response.close()
+        return source                                                                                          
 
 def RUNSOP(url):
         out = check_output([soppath + "run.sh", url, "3902", "8908"])
@@ -253,8 +291,10 @@ def addLink(url, name,mode,iconimage):
         u=sys.argv[0]+"?url="+urllib.quote_plus(url)+"&mode="+str(mode)+"&name="+urllib.quote_plus(name)+"&iconimage="+urllib.quote_plus(iconimage)
 #        xbmc.log(u)
         ok=True
-        if len(iconimage) > 0 :
+#        print "'" + iconimage + "' " + str(iconimage.find('http'))
+        if (len(iconimage) > 0 and iconimage.find('http') < 0) :
         	iconimage = 'http://sports-tv.eu'+iconimage
+#        print "'" + iconimage + "'"
         liz=xbmcgui.ListItem(name, iconImage=iconimage, thumbnailImage=iconimage)
         liz.setInfo( type="Video", infoLabels={ "Title": name } )
         ok=xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]),url=u,listitem=liz)
