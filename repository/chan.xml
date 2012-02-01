@@ -10,8 +10,8 @@
 
     <items>
         <item>
-            <title>FOX News - HQ Cast</title>
-            <link>rtmp://95.211.137.195/video Playpath=foxnews013 swfUrl=http://www.hqcast.tv/player/player-licensed.swf pageUrl=http://www.hqcast.tv/embed.php?live=foxnews013</link>            
+            <title>FOX News - HQ Cast - 013</title>
+            <link>rtmp://95.211.137.195/video Playpath=fox013 swfUrl=http://www.hqcast.tv/player/player-licensed.swf pageUrl=http://www.hqcast.tv/embed.php?live=fox013</link>            
             <thumbnail>none</thumbnail>
         </item>
         <item>
