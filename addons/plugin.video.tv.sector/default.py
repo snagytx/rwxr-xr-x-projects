@@ -25,7 +25,7 @@ def listVideos():
 #	if title.find('Protected') > -1  :
 #		continue
         url = link['href']
-	if (station.find('img') < 0 ) or ( title.find('Futubox') > -1 ) or ( title.find('Protected') > -1 ) :
+	if (station.find('img') < 0 ) or ( title.find('Futubox') > -1 ) or ( title.find('Protected') > -1 ) or ( title.find('Penthouse') > -1 ) or ( url.find('#') ==0 ) :
 		continue
         simg = station.find('img')
         #print simg
