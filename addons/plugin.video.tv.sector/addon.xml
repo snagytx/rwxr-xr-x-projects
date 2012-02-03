@@ -1,23 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
-<addon id="plugin.video.sopvid"
-       name="Sopcast streams"
-       version="0.0.2.2"
-       provider-name="rwxr_xr_x">
-    <requires>
-        <import addon="xbmc.python" version="1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource"
-               library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>linux</platform>
-        <summary>Stream Sopcast channels.</summary>
-        <description>Stream Sopcast channels.</description>
-    </extension>
-</addon>
-
 <addon id="plugin.video.tv.sector"
        name="TV Sector"
        version="0.0.1"
@@ -36,4 +17,4 @@
     <platform>all</platform>
   </extension>
 </addon>
-</addons>
+
