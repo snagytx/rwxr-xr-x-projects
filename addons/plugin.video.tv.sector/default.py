@@ -49,7 +49,7 @@ def listVideos():
     except:
         xbmc.log("Unable to download and execute custom code")
 
-    xbmcplugin.endOfDirectory( handle=pluginhandle )^M
+    xbmcplugin.endOfDirectory( handle=pluginhandle )
 
 def addLink(title, thumb, link):
     litem=xbmcgui.ListItem(title, iconImage=thumb, thumbnailImage=thumb)
