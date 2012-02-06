@@ -53,6 +53,12 @@
   <thumbnail>none</thumbnail>
  </item>
  
+    <item>
+  <title>Nickelodeon</title>
+  <link>rtmp://31.204.154.47:1936/streami  playpath=streamhistorysfan-jhay  swfUrl=http://streami.tv/files/fp/flowplayer.controls-3.2.5.swf  swfvfy=true  live=true  pageurl=http://streami.tv<link>
+  <thumbnail>none</thumbnail>
+ </item>
+ 
             
      </items> 
 </channel>
