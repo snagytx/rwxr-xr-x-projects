@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.sopvid"
        name="Sopcast streams"
-       version="0.0.2.2"
+       version="0.0.2.2.0"
        provider-name="rwxr_xr_x">
     <requires>
         <import addon="xbmc.python" version="1.0"/>
