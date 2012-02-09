@@ -74,9 +74,10 @@ def play():
     playpath, rtmp = re.compile('"file": "(.*?)", "streamer": "(.*?)",').findall(data)[0]
     options = ['s7','s5','s6','s7','s99']
     option = options[random.randint(1,4)]
-    Notify("", "Using server " + option, "")
-    rtmp = rtmp.replace('://tv','://'+option)
-    rtmp = rtmp.replace('tvsector.com/live', 'webport.tv/live')
+    rtmp = rtmp.replace('tv.tvsector.com/live', 'tv.futubox.com/live')
+#    Notify("", "Using server " + option, "")
+#    rtmp = rtmp.replace('://tv','://'+option)
+#    rtmp = rtmp.replace('tvsector.com/live', 'webport.tv/live')
     rtmp += ' playpath='+playpath+' swfurl='+swfUrl+' pageurl='+params["url"]+' live=1 playlist=1'
     item = xbmcgui.ListItem(path=rtmp)
     xbmcplugin.setResolvedUrl(pluginhandle, True, item)
