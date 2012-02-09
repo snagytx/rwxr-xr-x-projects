@@ -12,6 +12,17 @@ pluginhandle = int(sys.argv[1])
 
 BASE = 'http://www.tvsector.com/'
 
+       
+def Notify(title,message,times):
+     #simplified way to call notifications. common notifications here.
+     if title == '':
+          title='TV Sector'
+     if times == '':
+           times='5000'
+     smallicon=''
+     xbmc.executebuiltin("XBMC.Notification("+title+","+message+","+times+","+smallicon+")")
+
+
 def listVideos():
     xbmcplugin.addSortMethod(pluginhandle, xbmcplugin.SORT_METHOD_LABEL)
     data = getURL(BASE)
@@ -63,6 +74,7 @@ def play():
     playpath, rtmp = re.compile('"file": "(.*?)", "streamer": "(.*?)",').findall(data)[0]
     options = ['s7','s5','s6','s7','s99']
     option = options[random.randint(1,4)]
+    Notify("", "Using server " + option, "")
     rtmp = rtmp.replace('://tv','://'+option)
     rtmp = rtmp.replace('tvsector.com/live', 'webport.tv/live')
     rtmp += ' playpath='+playpath+' swfurl='+swfUrl+' pageurl='+params["url"]+' live=1 playlist=1'

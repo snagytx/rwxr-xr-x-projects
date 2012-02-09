@@ -20,7 +20,7 @@
 
 <addon id="plugin.video.tv.sector"
        name="TV Sector"
-       version="0.0.2.5"
+       version="0.0.2.6"
        provider-name="rwxr_xr_x">
   <requires>
     <import addon="xbmc.python" version="1.0"/>
