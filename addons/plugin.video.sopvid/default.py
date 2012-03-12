@@ -89,12 +89,12 @@ def setView(content, viewType):
 
 def channels():
 #       Manual ones
-        addLink('sop://broker.sopcast.com:3912/111947', 'HBO - S2', 3, '/imgtv/hbo.jpg')
-        addLink('sop://broker.sopcast.com:3912/86738', 'PRO TV - S2', 3, '/imgtv/protv.jpg')
-        addLink('sop://broker.sopcast.com:3912/111617', 'PRO TV - S3', 3, '/imgtv/protv.jpg')
-        addLink('sop://broker.sopcast.com:3912/90686', 'PRO TV - S4', 3, '/imgtv/protv.jpg')
-        addLink('sop://broker.sopcast.com:3912/112101', 'HBO Comedy - S2', 3, '/imgtv/hbo.jpg')
-        addLink('sop://broker.sopcast.com:3912/111718', 'Antena 1 - S2', 3, '/imgtv/antena1.jpg')
+        addLink('sop://broker.sopcast.com:3912/111947', 'HBO - S2', 3, 'tvlogo-mic/hbo.png')
+        addLink('sop://broker.sopcast.com:3912/86738', 'PRO TV - S2', 3, 'tvlogo-mic/protv.png')
+        addLink('sop://broker.sopcast.com:3912/111617', 'PRO TV - S3', 3, 'tvlogo-mic/protv.png')
+        addLink('sop://broker.sopcast.com:3912/90686', 'PRO TV - S4', 3, 'tvlogo-mic/protv.png')
+        addLink('sop://broker.sopcast.com:3912/112101', 'HBO Comedy - S2', 3, 'tvlogo-mic/hbocomedy.png')
+        addLink('sop://broker.sopcast.com:3912/111718', 'Antena 1 - S2', 3, 'tvlogo-mic/antena1.png')
 
 
 #        addLink('sop://broker.sopcast.com:3912/112099', 'TVR 1', 3, '/imgtv/tvr1.jpg')
@@ -293,7 +293,10 @@ def addLink(url, name,mode,iconimage):
         ok=True
 #        print "'" + iconimage + "' " + str(iconimage.find('http'))
         if (len(iconimage) > 0 and iconimage.find('http') < 0) :
-        	iconimage = 'http://sports-tv.eu'+iconimage
+                if(iconimage.startswith("/")) :
+                        iconimage = 'http://sports-tv.eu'+iconimage
+                else:
+                        iconimage = 'http://sports-tv.eu/'+iconimage
 #        print "'" + iconimage + "'"
         liz=xbmcgui.ListItem(name, iconImage=iconimage, thumbnailImage=iconimage)
         liz.setInfo( type="Video", infoLabels={ "Title": name } )
