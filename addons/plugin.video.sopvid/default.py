@@ -89,12 +89,12 @@ def setView(content, viewType):
 
 def channels():
 #       Manual ones
-        addLink('sop://broker.sopcast.com:3912/111947', 'HBO - S2', 3, 'tvlogo-mic/hbo.png')
-        addLink('sop://broker.sopcast.com:3912/86738', 'PRO TV - S2', 3, 'tvlogo-mic/protv.png')
-        addLink('sop://broker.sopcast.com:3912/111617', 'PRO TV - S3', 3, 'tvlogo-mic/protv.png')
-        addLink('sop://broker.sopcast.com:3912/90686', 'PRO TV - S4', 3, 'tvlogo-mic/protv.png')
-        addLink('sop://broker.sopcast.com:3912/112101', 'HBO Comedy - S2', 3, 'tvlogo-mic/hbocomedy.png')
-        addLink('sop://broker.sopcast.com:3912/111718', 'Antena 1 - S2', 3, 'tvlogo-mic/antena1.png')
+#        addLink('sop://broker.sopcast.com:3912/111947', 'HBO - S2', 3, 'tvlogo-mic/hbo.png')
+#        addLink('sop://broker.sopcast.com:3912/86738', 'PRO TV - S2', 3, 'tvlogo-mic/protv.png')
+#        addLink('sop://broker.sopcast.com:3912/111617', 'PRO TV - S3', 3, 'tvlogo-mic/protv.png')
+#        addLink('sop://broker.sopcast.com:3912/90686', 'PRO TV - S4', 3, 'tvlogo-mic/protv.png')
+#        addLink('sop://broker.sopcast.com:3912/112101', 'HBO Comedy - S2', 3, 'tvlogo-mic/hbocomedy.png')
+#        addLink('sop://broker.sopcast.com:3912/111718', 'Antena 1 - S2', 3, 'tvlogo-mic/antena1.png')
 
 
 #        addLink('sop://broker.sopcast.com:3912/112099', 'TVR 1', 3, '/imgtv/tvr1.jpg')
@@ -150,7 +150,9 @@ def channels():
 	source = getURL("http://sports-tv.eu/index3.htm")
 #	source = getURL('http://sports-tv.eu/index.html')
 #	print source
-	match=re.compile('.*OnPlay\(\'sop(.*)\', \'(.*)\'\)".*.*src="(.*)"/>.*').findall(source)
+#	match=re.compile('.*OnPlay\(\'sop(.*)\', \'(.*)\'\)".*.*src="(.*)"/>.*').findall(source)
+#	match=re.compile('.*OnPlay\(\'sop(.*)\', \'(.*)\'\)".*src=\"([^\"]*)\".*').findall(source)
+	match=re.compile('.*OnPlay\(\'sop(.*)\', \'(.*)\'\)"[^<]*<img[^>]*src=\"([^\"]*)\"[^>]*').findall(source)
 	print match
 
 	for mat in match:
