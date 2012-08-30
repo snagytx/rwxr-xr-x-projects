@@ -20,16 +20,13 @@ echo "        <link type=\"text/css\" rel=\"stylesheet\" href=\"style/pwc/defaul
 echo "        <link type=\"text/css\" rel=\"stylesheet\" href=\"style/pwc/ddwrt.css\" />"
 echo "        <link type=\"text/css\" rel=\"stylesheet\" href=\"user/style/mypage.css\" />"
 echo "        <title>$(nvram get router_name) (build $(/sbin/softwarerevision)M) - "Live Usage"</title>"
-
 echo "</head>"
 echo "<body class=\"gui\" id=\"top\">"
-
 echo "<div id=\"wrapper\">"
 echo "<div id=\"content\">"
 echo "<div id=\"header\">"
 echo "<div id=\"logo\"><h1>DD-WRT Control Panel</h1></div>"
 echo "<div id=\"menu\">"
-
 echo " <div id=\"menuMain\">"
 echo "  <ul id=\"menuMainList\">"
 echo "   <li><a href=\"index.asp\">Setup</a></li>"
@@ -51,17 +48,13 @@ echo "  </ul>"
 echo "</div>"
 echo "</div>"
 echo "</div>"
-
 echo "<div id=\"main\">"
 echo "<div id=\"contents\">"
-
 echo "<fieldset id=\"l1\">"    
 cat /tmp/usage.html
 echo "</fieldset><br />"
-
 echo "</div>"
 echo "</div>"
-
 echo "<div id=\"helpContainer\">"
 echo "<div id=\"help\">"
 echo "<div><h2><script type=\"text/javascript\">Capture(share.help)</script></h2></div>"
@@ -74,9 +67,7 @@ echo "</dl><br />"
 echo "<a href=\"http://www.dd-wrt.com/phpBB2/viewtopic.php?t=75275\" title=\"Link to DD-WRT Forum Topic\">Link to DD-WRT Forum Topic</a>"
 echo "</div>"
 echo "</div>"
-
 echo "<div id=\"floatKiller\"></div>"
-
 echo "<div id=\"statusInfo\">"
 echo "<div class=\"info\">Date: <span id=\"locdate\">$(date +%d" "%h" "%Y)</span> - <script type=\"text/javascript\">Capture(share.firmware)</script>: <a href=\"javascript:openAboutWindow();\" title=\"About\">$(cat /tmp/loginprompt|grep DD-WRT|cut -d' ' -f1) $(cat /tmp/loginprompt|grep DD-WRT|cut -d' ' -f2) ($(cat /tmp/loginprompt|grep Release|cut -d' ' -f2)) $(cat /tmp/loginprompt|grep DD-WRT|cut -d' ' -f3)</a></div>"
 echo "<div class=\"info\"><script type=\"text/javascript\">Capture(share.time)</script>: <span id=\"uptime\">$(uptime)</span></div>"
