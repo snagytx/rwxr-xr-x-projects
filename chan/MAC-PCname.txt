@@ -9,3 +9,5 @@ E0:CB:4E:4E:4A:A6,Milka
 00:16:36:7A:CC:08,maritza-oe
 00:18:61:0D:31:77,ooma
 70:73:CB:E8:F3:74,Apple-TV
+1C:AB:A7:98:EA:6B,Sebastians-iPad
+00:23:15:1F:CA:88,Ramona-PC
