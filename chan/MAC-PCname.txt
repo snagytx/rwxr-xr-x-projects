@@ -1,1 +1,10 @@
 00:24:6C:CD:1B:2A,aruba
+E0:CB:4E:4E:4A:A6,Milka
+58:55:CA:F4:5C:87,Firga
+00:80:77:91:74:94,Brody
+00:12:3F:C2:49:FB,Spirydon
+00:1F:F3:FC:18:B9,nagse02-w7
+00:1B:21:BB:2F:CC,nagse02w7
+80:EE:73:1E:A9:3E,mura-oe
+00:16:36:7A:CC:08,maritza-oe
+00:18:61:0D:31:77,ooma
