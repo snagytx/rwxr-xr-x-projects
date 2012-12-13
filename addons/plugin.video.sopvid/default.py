@@ -75,11 +75,12 @@ def setView(content, viewType):
 #	xbmcplugin.setContent(int(sys.argv[1]), 'tvshows');
 #	if selfAddon.getSetting('auto-view') == 'true':
 #		xbmc.executebuiltin("Container.SetViewMode(%s)" % selfAddon.getSetting(viewType) )
+	xbmc.executebuiltin("Container.SetViewMode(500)")
 		
 #	xbmcplugin.addSortMethod( handle=int(sys.argv[1]), sortMethod=xbmcplugin.SORT_METHOD_VIDEO_TITLE )
-#	xbmcplugin.addSortMethod( handle=int(sys.argv[1]), sortMethod=xbmcplugin.SORT_METHOD_LABEL )
+	xbmcplugin.addSortMethod( handle=int(sys.argv[1]), sortMethod=xbmcplugin.SORT_METHOD_LABEL )
 #	xbmcplugin.addSortMethod( handle=int(sys.argv[1]), sortMethod=xbmcplugin.SORT_METHOD_UNSORTED )
-	xbmcplugin.addSortMethod( handle=int(sys.argv[1]), sortMethod=xbmcplugin.SORT_METHOD_VIDEO_RATING )
+#	xbmcplugin.addSortMethod( handle=int(sys.argv[1]), sortMethod=xbmcplugin.SORT_METHOD_VIDEO_RATING )
 #	xbmcplugin.addSortMethod( handle=int(sys.argv[1]), sortMethod=xbmcplugin.SORT_METHOD_DATE )
 #	xbmcplugin.addSortMethod( handle=int(sys.argv[1]), sortMethod=xbmcplugin.SORT_METHOD_PROGRAM_COUNT )
 #	xbmcplugin.addSortMethod( handle=int(sys.argv[1]), sortMethod=xbmcplugin.SORT_METHOD_VIDEO_RUNTIME )
@@ -157,7 +158,7 @@ def channels():
 
 	for mat in match:
 		link = 'sop'+str(mat[0])
-		name = str(mat[1])
+		name = str(mat[1].strip())
 		img = str(mat[2])
 #		xbmc.log('Link %s, name %s, img %s', link, name, img)
 		addLink(link, name, 3, img)
