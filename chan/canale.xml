@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<channels>
+	<channel>
+		<name>Canale Romania</name>
+		<thumbnail></thumbnail>
+		<items>
+			<item>
+				<title>1 Music Channel</title>
+				<link>http://86.106.82.9:8086</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Acasa TV</title>
+				<link>http://86.106.82.154:8080</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Acasa TV Gold</title>
+				<link>http://86.106.82.101:9023/udp/239.80.2.1:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Al Jazeera</title>
+				<link>http://86.106.82.59:9023/udp/239.80.8.8:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Alfa Omega TV</title>
+				<link>http://86.106.82.154:8094</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Animal Planet </title>
+				<link>http://86.106.82.59:9023/udp/239.80.1.8:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Antena 1</title>
+				<link>http://86.106.82.153:8081</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Antena 3</title>
+				<link>http://86.106.82.154:8083</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Antena Stars</title>
+				<link>http://86.106.82.154:8088</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>ATV</title>
+				<link>http://86.106.82.59:9023/udp/239.80.6.3:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>AXN </title>
+				<link>http://86.106.82.59:9023/udp/239.80.5.1:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>AXN Black</title>
+				<link>http://86.106.82.59:9023/udp/239.80.5.3:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>AXN White</title>
+				<link>http://86.106.82.59:9023/udp/239.80.5.2:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>B1 TV</title>
+				<link>http://86.106.82.154:8082</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>BBC</title>
+				<link>http://86.106.82.59:9023/udp/239.80.18.3:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Boomerang</title>
+				<link>http://86.106.82.59:9023/udp/239.80.6.27:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Cartoon Network</title>
+				<link>http://86.106.82.59:9023/udp/239.80.1.9:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>CBS Reality</title>
+				<link>http://86.106.82.59:9023/udp/239.80.1.10:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>CCTV 9 Documentary</title>
+				<link>http://86.106.82.59:9023/udp/239.80.8.2:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>CCTV News</title>
+				<link>http://86.106.82.59:9023/udp/239.80.8.10:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Cinemax</title>
+				<link>http://86.106.82.59:9023/udp/239.80.6.28:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Cinemax 2</title>
+				<link>http://86.106.82.59:9023/udp/239.80.6.24:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>CNN</title>
+				<link>http://86.106.82.59:9023/udp/239.80.1.1:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Credo TV</title>
+				<link>http://86.106.82.59:9023/udp/239.80.7.6:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Discovery CH</title>
+				<link>http://86.106.82.59:9023/udp/239.80.1.5:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Discovery Science</title>
+				<link>http://86.106.82.59:9023/udp/239.80.3.3:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Discovery word</title>
+				<link>http://86.106.82.59:9023/udp/239.80.3.2:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Disney Channel</title>
+				<link>http://86.106.82.59:9023/udp/239.80.4.7:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Disney JR</title>
+				<link>http://86.106.82.59:9023/udp/239.80.11.2:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Diva Universal</title>
+				<link>http://86.106.82.59:9023/udp/239.80.2.9:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Duck TV</title>
+				<link>http://86.106.82.59:9023/udp/239.80.6.5:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Duna World</title>
+				<link>http://86.106.82.59:9023/udp/239.80.6.6:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Echo TV</title>
+				<link>http://86.106.82.59:9023/udp/239.80.6.7:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Etno</title>
+				<link>http://86.106.82.9:8082</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Euforia Lifestyle</title>
+				<link>http://86.106.82.154:8089</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Eurosport</title>
+				<link>http://86.106.82.154:8091</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Eurosport 2</title>
+				<link>http://86.106.82.154:8090</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>ExtremeSports</title>
+				<link>http://86.106.82.59:9023/udp/239.80.6.25:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Favorit</title>
+				<link>http://86.106.82.59:9023/udp/239.80.2.8:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Film Cafe</title>
+				<link>http://86.106.82.59:9023/udp/239.80.7.26:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Fishing Hunting</title>
+				<link>http://86.106.82.59:9023/udp/239.80.18.2:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>HBO</title>
+				<link>http://86.106.82.101:9023/udp/239.80.1.3:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>HBO Comedy</title>
+				<link>http://86.106.82.59:9023/udp/239.80.7.22:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>History Channel </title>
+				<link>http://86.106.82.101:9023/udp/239.80.4.6:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Hunedoara TV</title>
+				<link>http://86.106.82.154:8085</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Inedit TV</title>
+				<link>http://86.106.82.59:9023/udp/239.80.8.6:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Jim Jam</title>
+				<link>http://86.106.82.59:9023/udp/239.80.7.30:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Kanal D</title>
+				<link>http://86.106.82.154:8095</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>MGM</title>
+				<link>http://86.106.82.101:9023/udp/239.80.4.3:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Minimax Romania</title>
+				<link>http://86.106.82.59:9023/udp/239.80.2.6:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Money Channel</title>
+				<link>http://86.106.82.101:9023/udp/239.80.7.25:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Mooz Dance</title>
+				<link>http://86.106.82.101:9023/udp/239.80.8.5:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>MTV Romania</title>
+				<link>http://86.106.82.9:8083</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Mynele</title>
+				<link>http://86.106.82.59:9023/udp/239.80.8.1:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>N24</title>
+				<link>http://86.106.82.59:9023/udp/239.80.1.2:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>NatGeoWild</title>
+				<link>http://86.106.82.59:9023/udp/239.80.6.29:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>National Geografic</title>
+				<link>http://86.106.82.59:9023/udp/239.80.6.21:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>National TV</title>
+				<link>http://86.106.82.154:8086</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Prima TV</title>
+				<link>http://86.106.82.153:8082</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Pro Cinema</title>
+				<link>http://86.106.82.154:8093</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>PRO TV international</title>
+				<link>http://86.106.82.59:9023/udp/239.80.7.29:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Protv</title>
+				<link>http://86.106.82.153:8080</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>PublicaTV</title>
+				<link>http://86.106.82.59:9023/udp/239.80.8.20:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Realitatea</title>
+				<link>http://86.106.82.59:9023/udp/239.80.7.3:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Romania TV</title>
+				<link>http://86.106.82.154:8084</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>RTL Klub</title>
+				<link>http://86.106.82.59:9023/udp/239.80.6.2:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>SKY News</title>
+				<link>http://86.106.82.59:9023/udp/239.80.8.9:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Speranta TV</title>
+				<link>http://86.106.82.59:9023/udp/239.80.7.5:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Sport 1 </title>
+				<link>http://86.106.82.59:9023/udp/239.80.1.4:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Sport.ro</title>
+				<link>http://86.106.82.153:8085</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>TLC</title>
+				<link>http://86.106.82.154:8097</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Transilvania Live</title>
+				<link>http://86.106.82.59:9023/udp/224.5.2.2:12345</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Transilvania Look</title>
+				<link>http://86.106.82.59:9023/udp/224.5.2.1:12345</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Travel Channel</title>
+				<link>http://86.106.82.59:9023/udp/239.80.3.4:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Travel Mix</title>
+				<link>http://89.38.8.131:39520</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Trinitas</title>
+				<link>http://86.106.82.59:9023/udp/239.80.7.24:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>TV Paprika</title>
+				<link>http://86.106.82.101:9023/udp/239.80.17.1:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>TV2</title>
+				<link>http://86.106.82.59:9023/udp/239.80.6.1:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>TV5 Mond</title>
+				<link>http://86.106.82.59:9023/udp/239.80.6.26:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>TVR 1</title>
+				<link>http://86.106.82.154:8081</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>TVR 2</title>
+				<link>http://86.106.82.101:9023/udp/239.80.12.1:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>TVR 3</title>
+				<link>http://86.106.82.59:9023/udp/239.80.12.3:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>TVR Cluj</title>
+				<link>http://86.106.82.101:9023/udp/239.80.13.3:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>TVR Craiova</title>
+				<link>http://86.106.82.101:9023/udp/239.80.13.4:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>TVR Iasi</title>
+				<link>http://86.106.82.101:9023/udp/239.80.13.5:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>TVR International</title>
+				<link>http://86.106.82.59:9023/udp/239.80.12.5:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>TVR News</title>
+				<link>http://86.106.82.101:9023/udp/239.80.12.4:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>TVR Timisoara</title>
+				<link>http://86.106.82.101:9023/udp/239.80.12.6:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>TVRHD Sochi 2014</title>
+				<link>rtmp://live.djemba.ro/live2/tvrhd</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>UTV</title>
+				<link>http://86.106.82.9:8085</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Viasat Explorer</title>
+				<link>http://86.106.82.59:9023/udp/239.80.18.5:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Viasat History\t</title>
+				<link>http://86.106.82.59:9023/udp/239.80.4.2:5000</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>West TV</title>
+				<link>http://86.106.82.9:8081</link>
+				<thumbnail></thumbnail>
+			</item>
+			<item>
+				<title>Zu TV</title>
+				<link>http://86.106.82.154:8092</link>
+				<thumbnail></thumbnail>
+			</item>
+		</items>
+	</channel>
+</channels>
