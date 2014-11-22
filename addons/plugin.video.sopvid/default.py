@@ -7,7 +7,7 @@ selfAddon = xbmcaddon.Addon(id='plugin.video.sopvid')
 #USER_AGENT = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3'
 
 USER_AGENT = 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3; MS-RTC LM 8; .NET CLR 1.1.4322; .NET4.0E; .NET4.0C; Tablet PC 2.0)'
-SOPCAST_REFERRER = 'http://sports-tv.eu'
+SOPCAST_REFERRER = 'http://sports-tv.ro'
 
 
 url=None
@@ -148,7 +148,8 @@ def channels():
 #        addLink('sop://broker.sopcast.com:3912/74634', 'Discovery Investigation', 3, '/imgtv/discoveryinvestigation.jpg')
 #        addLink('sop://broker.sopcast.com:3912/74635', 'Discovery Science', 3, '/imgtv/discoveryscience.jpg')
 
-	source = getURL("http://sports-tv.eu/index3.htm")
+#	source = getURL("http://sports-tv.eu/index3.htm")
+	source = getURL(SOPCAST_REFERRER + "/index3.htm")
 #	source = getURL('http://sports-tv.eu/index.html')
 #	print source
 #	match=re.compile('.*OnPlay\(\'sop(.*)\', \'(.*)\'\)".*.*src="(.*)"/>.*').findall(source)
@@ -266,7 +267,7 @@ def Item_Meta(name, iconimage):
 	listitem = xbmcgui.ListItem(name)
 	listitem.setInfo('video', {'Title': name})
 	if len(iconimage) > 0 :
-	    iconimage = "http://sports-tv.eu" + iconimage
+	    iconimage = SOPCAST_REFERRER + iconimage
 	listitem.setThumbnailImage(iconimage)
 	return listitem
 
@@ -296,10 +297,9 @@ def addLink(url, name,mode,iconimage):
         ok=True
 #        print "'" + iconimage + "' " + str(iconimage.find('http'))
         if (len(iconimage) > 0 and iconimage.find('http') < 0) :
-                if(iconimage.startswith("/")) :
-                        iconimage = 'http://sports-tv.eu'+iconimage
-                else:
-                        iconimage = 'http://sports-tv.eu/'+iconimage
+                if not iconimage.startswith("/") :
+                        iconimage = '/'+iconimage
+                iconimage = SOPCAST_REFERRER + iconimage
 #        print "'" + iconimage + "'"
         liz=xbmcgui.ListItem(name, iconImage=iconimage, thumbnailImage=iconimage)
         liz.setInfo( type="Video", infoLabels={ "Title": name } )
