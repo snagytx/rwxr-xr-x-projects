@@ -4,7 +4,7 @@
        version="VERSION_REPLACE"
        provider-name="rwxr_xr_x">
     <requires>
-        <import addon="xbmc.python" version="1.0"/>
+        <import addon="xbmc.python" version="2.1.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource"
                library="default.py">
