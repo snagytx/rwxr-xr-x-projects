@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="rwxr-xr-x-projects" name="rwxr_xr_x addons" version="1.0" provider-name="rwxr_xr_x">
     <extension point="xbmc.addon.repository" name="rwxr_xr_x add-on repository">
-        <info compressed="false">http://rwxr-xr-x-projects.googlecode.com/svn/addons/addons.xml</info>
-        <checksum>http://rwxr-xr-x-projects.googlecode.com/svn/addons/addons.xml.md5</checksum>
-        <datadir zip="true">http://rwxr-xr-x-projects.googlecode.com/svn/addons</datadir>
+        <info compressed="false">https://cdn.rawgit.com/snagytx/rwxr-xr-x-projects/master/addons/addons.xml</info>
+        <checksum>https://cdn.rawgit.com/snagytx/rwxr-xr-x-projects/master/addons/addons.xml.md5</checksum>
+        <datadir zip="true">https://cdn.rawgit.com/snagytx/rwxr-xr-x-projects/master/addons</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Install Addons from http://rwxr-xr-x-projects.googlecode.com</summary>
+        <summary>Install Addons from https://github.com/snagytx/rwxr-xr-x-projects</summary>
         <description>Download and install addons from rwxr_xr_x repository.</description>
         <platform>all</platform>
     </extension>
